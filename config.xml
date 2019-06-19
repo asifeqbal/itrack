@@ -23,6 +23,10 @@
     <gap:platform name="android" />
 
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="sms:*" />
+    
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
